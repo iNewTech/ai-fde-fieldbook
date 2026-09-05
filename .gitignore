@@ -1,0 +1,14 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+.netlify/
+.env
+.env.*
+!.env.example
+.learning/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+tmp/
+test-results/
