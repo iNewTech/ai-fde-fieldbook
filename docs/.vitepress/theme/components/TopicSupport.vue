@@ -9,13 +9,13 @@ const content = computed(() => topicSupport[props.module]);
 const assessment = computed(() => questions.find(q => q.module === props.module));
 const selected = ref();
 const submitted = ref(false);
-const passed = ref(typeof localStorage !== 'undefined' && localStorage.getItem(`fde-pass-${props.module}`) === 'true');
+const passed = ref(typeof window !== 'undefined' && typeof window.localStorage?.getItem === 'function' && window.localStorage.getItem(`fde-pass-${props.module}`) === 'true');
 
 function submit() {
   submitted.value = true;
   if (selected.value === assessment.value.answer) {
     passed.value = true;
-    localStorage.setItem(`fde-pass-${props.module}`, 'true');
+    if (typeof window !== 'undefined' && typeof window.localStorage?.setItem === 'function') window.localStorage.setItem(`fde-pass-${props.module}`, 'true');
   }
 }
 function retry() { selected.value = undefined; submitted.value = false; }
