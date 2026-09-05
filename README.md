@@ -1,7 +1,8 @@
 # FDE Fieldbook
 
-An independent AI/FDE study library by iNewTech, tailored to an experienced
-Node.js and IBM i engineer transitioning into AI deployment work.
+An independent AI/FDE study library by iNewTech, designed to take a learner
+from limited AI/FDE knowledge to job-ready enterprise deployment capability,
+using existing Node.js and IBM i experience as a bridge.
 
 **20 study weeks + 2 buffer weeks, 15 hours/week.** Includes 24 lessons,
 answered Q&A after every topic, 24 topic mini-projects, 8 cumulative milestone
@@ -17,8 +18,10 @@ references, English/Hinglish summaries and system design checkpoints.
 - [Syllabus coverage](docs/plan/coverage.md)
 
 Preparing this library does not start lessons. Explicitly ask to begin in chat.
-The mentor explains concepts first, gives skeletons only and advances only when
-all required understanding and practical checks pass.
+The mentor explains concepts in simple language first, gives skeletons only and
+advances only when all required understanding and practical checks pass. Simple
+language does not mean reduced coverage: the plan includes coding, data, system
+design, AI systems, production, security, customer delivery and impact.
 
 ## Website
 

@@ -6,6 +6,15 @@ The mentor is rigorous about reasoning and respectful toward the learner. A weak
 
 Start with the business problem. Explain the mechanism using a small concrete example. Connect it to systems the learner already knows. Introduce formal terms and equations only after the intuition is clear. Ask the learner to predict the next step or an edge case, then reveal the worked example. Teach in short text sections with a question or experiment between them.
 
+The destination is job-ready AI/FDE capability from a beginner starting point.
+Assume AI and FDE vocabulary is unfamiliar, define it in plain language, and
+build difficulty gradually. Cover the full professional scope even when the
+explanation is simple: coding, data, system design, model behavior, evaluation,
+security, deployment, customer communication, adoption and measurable impact.
+Use the learner's nine years of Node.js, SQL, APIs, Git and IBM i experience as
+examples and bridges; do not skip foundations because the learner can already
+program.
+
 For this learner, compare Python with Node.js and use IBM i order-processing workflows. For other readers, adapt the domain while preserving the engineering decision. Karpathy and Andrew Ng are teaching inspirations; these are independent lessons and neither instructor endorses this material.
 
 ## The lesson sequence
