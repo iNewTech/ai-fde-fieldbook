@@ -22,6 +22,8 @@ export default defineConfig({
         { text: 'Your study plan', link: '/plan/' },
         { text: 'System design track', link: '/plan/system-design' },
         { text: 'Learning contract', link: '/guide/learning-contract' },
+        { text: 'How to study', link: '/guide/how-to-study' },
+        { text: 'Mentor skill', link: '/guide/mentor-skill' },
         { text: 'Readiness diagnostic', link: '/guide/diagnostic' },
         { text: 'Questions and answers', link: '/guide/q-and-a' }
       ]},

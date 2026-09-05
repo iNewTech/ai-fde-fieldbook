@@ -8,7 +8,7 @@ Take this when you explicitly start. Allow 60-90 minutes inside week 1. Use synt
 2. Given order and shipment tables, explain how you would find late unshipped orders without duplicating totals across joins. Describe an index and verify its query plan.
 3. A Node.js endpoint calls an unreliable upstream service. Explain cancellation, deadlines, bounded concurrency and the risk of retrying a write.
 4. Demonstrate a Git branch, a small reviewable change and a revert. Explain why deleting a leaked credential from a file is insufficient.
-5. Draw a read-only API boundary around an IBM i/Db2 system. Include identity, service authorization, auditing, data freshness and rollback.
+5. Draw a read-only API boundary around an enterprise ERP or CRM system. Include identity, service authorization, auditing, data freshness and rollback.
 
 Pass through explanation plus one small working artifact. Familiarity is expected here, but evidence determines how much repetition is needed.
 

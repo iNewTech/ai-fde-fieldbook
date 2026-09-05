@@ -2,7 +2,10 @@
 
 **20 active weeks, 2 buffer weeks, 15 hours per week: 330 hours reserved.** Weeks begin when you explicitly start, not when this website is deployed. The site is a library; chat is where your mentor teaches, reviews and gates progress.
 
-This route is tailored to an engineer with nine years of JavaScript/Node.js, RPGLE and IBM i experience, strong SQL, Git and APIs, and less Python. Use that domain experience in the projects. Established skills still receive a diagnostic check; spend the saved repetition time on AI reasoning and failure analysis.
+This route works for beginners and experienced engineers. Use your existing
+programming, API, SQL or operations experience as a bridge, but complete the
+diagnostic before skipping anything. Established skills still receive a check;
+saved repetition time goes toward AI reasoning and failure analysis.
 
 ## What the time includes
 
@@ -57,7 +60,11 @@ In this table M/T/W/Th/F correspond to the one-hour weekday slots. Saturday and 
 
 ## Your default stack
 
-Use **Python and FastAPI** for the AI service; **Node.js/TypeScript** where an existing adapter or UI benefits from your experience; **PostgreSQL with pgvector** for the main learning deployment; **Chroma** for a small comparison lab; and **Docker** for packaging. The customer system is a **synthetic IBM i/Db2-style ERP fixture**, not a live employer system.
+Use **Python and FastAPI** for the AI service; **Node.js/TypeScript** where an
+adapter or UI benefits from it; **PostgreSQL with pgvector** for the main
+learning deployment; **Chroma** for a small comparison lab; and **Docker** for
+packaging. Customer systems are represented with synthetic CRM, ERP, ticketing,
+document and analytics fixtures, never live employer data.
 
 Learn one cloud deployment deeply. AWS Bedrock, Azure OpenAI and Google Vertex AI all receive a comparison and architecture exercise. Kubernetes receives a local deployment/recovery exercise. Learn LangGraph through a bounded workflow, then contrast CrewAI with a small equivalent experiment. Pinecone, Qdrant and Weaviate receive selection/contract checks; operating every vendor at production scale is beyond this schedule. No competency is silently removed: depth is explicit in the [coverage map](/plan/coverage).
 

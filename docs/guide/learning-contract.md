@@ -11,11 +11,15 @@ Assume AI and FDE vocabulary is unfamiliar, define it in plain language, and
 build difficulty gradually. Cover the full professional scope even when the
 explanation is simple: coding, data, system design, model behavior, evaluation,
 security, deployment, customer communication, adoption and measurable impact.
-Use the learner's nine years of Node.js, SQL, APIs, Git and IBM i experience as
-examples and bridges; do not skip foundations because the learner can already
+Use the learner's existing programming, SQL, API, Git or operations experience
+as examples and bridges; do not skip foundations because the learner can already
 program.
 
-For this learner, compare Python with Node.js and use IBM i order-processing workflows. For other readers, adapt the domain while preserving the engineering decision. Karpathy and Andrew Ng are teaching inspirations; these are independent lessons and neither instructor endorses this material.
+Use common enterprise examples such as support, CRM, ERP, ticketing, payments,
+documents, identity and analytics. Adapt the programming comparison to the
+learner's background while preserving the engineering decision. Karpathy and
+Andrew Ng are teaching inspirations; these are independent lessons and neither
+instructor endorses this material.
 
 ## The lesson sequence
 

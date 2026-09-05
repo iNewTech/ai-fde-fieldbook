@@ -4,7 +4,7 @@ Week 1 | Prerequisite: readiness diagnostic | Output: one-page pilot charter
 
 ## The enterprise problem
 
-At fictional distributor Northstar Supply, support agents check an IBM i order system, a CRM and policy PDFs to answer delivery questions. The operations head asks for a chatbot. Before selecting a model, find out whether agents are searching slowly, trusting stale data, waiting for approvals or explaining genuine shipping delays. Each cause changes the solution.
+At fictional distributor Northstar Supply, support agents check an ERP, CRM and policy PDFs to answer delivery questions. The operations head asks for a chatbot. Before selecting a model, find out whether agents are searching slowly, trusting stale data, waiting for approvals or explaining genuine shipping delays. Each cause changes the solution.
 
 ## First principles
 

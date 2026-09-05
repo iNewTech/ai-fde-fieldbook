@@ -16,7 +16,7 @@ System design is a required thread through the program. Each review starts with 
 
 | When | Design to defend | Changed constraint |
 | --- | --- | --- |
-| Week 3 | IBM i adapter, event replay and transactional boundary | Source sends out-of-order updates |
+| Week 3 | Enterprise system adapter, event replay and transactional boundary | Source sends out-of-order updates |
 | Week 7 | Multi-tenant RAG, retrieval store, index versions and citations | One tenant revokes document access |
 | Week 10 | Agent state, parallelism, approval and resume | Process crashes after a tool effect |
 | Week 12 | Deployment topology, probes, CI/CD and rollback | New release changes index schema |

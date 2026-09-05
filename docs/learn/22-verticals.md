@@ -22,7 +22,7 @@ Three customers all need order status. Their source adapters differ, but the nor
 
 ## Independent work
 
-Write a six-row vertical scorecard for the domains above. For each, identify user, workflow, non-AI baseline, data source, serious failure and measurable outcome. Deepen one domain using your IBM i experience. Write a two-page product-feedback memo separating reusable behavior from customer-specific policy. Keep startup ideas as a later research list.
+Write a six-row vertical scorecard for the domains above. For each, identify user, workflow, non-AI baseline, data source, serious failure and measurable outcome. Deepen one domain using your own work experience. Write a two-page product-feedback memo separating reusable behavior from customer-specific policy. Keep startup ideas as a later research list.
 
 ## Required checks
 

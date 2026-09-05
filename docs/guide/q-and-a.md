@@ -36,9 +36,9 @@ No. Voice is useful when speaking fits the workflow; video is useful when the ev
 
 No. The key is a system that uses model decisions to choose actions within a controlled loop. Multiple specialists can be useful, but they can also share mistakes and increase cost. Compare them against a fixed workflow and a single-agent baseline.
 
-## Can I use my employer's IBM i data?
+## Can I use my employer's data?
 
-The exercises are designed around synthetic fixtures. Access to an employer system is not assumed or needed. For an actual customer deployment, use the customer's explicit authorization and approved data boundary.
+The exercises use synthetic fixtures. Access to an employer system is not assumed or needed. For an actual customer deployment, use explicit authorization, approved data boundaries and sanitized evidence.
 
 ## How do we study in Hindi-English?
 

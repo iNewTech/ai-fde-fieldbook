@@ -2,7 +2,7 @@
 
 An independent AI/FDE study library by iNewTech, designed to take a learner
 from limited AI/FDE knowledge to job-ready enterprise deployment capability,
-using existing Node.js and IBM i experience as a bridge.
+using transferable programming, API and data experience as a bridge.
 
 **20 study weeks + 2 buffer weeks, 15 hours/week.** Includes 24 lessons,
 answered Q&A after every topic, 24 topic mini-projects, 8 cumulative milestone
@@ -13,6 +13,8 @@ references, English/Hinglish summaries and system design checkpoints.
 
 - [Study plan](docs/plan/index.md)
 - [Learning contract](docs/guide/learning-contract.md)
+- [How to study](docs/guide/how-to-study.md)
+- [Reusable mentor skill](docs/guide/mentor-skill.md)
 - [System design](docs/plan/system-design.md)
 - [Projects](docs/projects/index.md)
 - [Syllabus coverage](docs/plan/coverage.md)

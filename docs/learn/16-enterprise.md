@@ -12,7 +12,7 @@ Authentication establishes identity; authorization decides what that identity ma
 
 Data lineage connects an answer to the source record, extraction step, transformation, index version and access decision. An audit trail records accountable events; a debug log helps diagnosis. They may differ in retention, immutability and readership. Logging every raw prompt can increase exposure without improving either goal.
 
-Schema evolution requires explicit compatibility. Adding an optional field differs from changing a state code's meaning. A connector should surface unknown states instead of silently treating them as success. Reconcile snapshots against event-derived state to detect missed updates. Use source-supported mechanisms for IBM i integration and preserve the existing system of record.
+Schema evolution requires explicit compatibility. Adding an optional field differs from changing a state code's meaning. A connector should surface unknown states instead of silently treating them as success. Reconcile snapshots against event-derived state to detect missed updates. Use the source system's supported integration mechanisms and preserve the existing system of record.
 
 Private networking narrows routes but does not replace authorization. Understand public endpoints, VPC/private endpoints, egress controls and on-prem connectivity. Secrets belong in a managed runtime mechanism with rotation and revocation; they should not travel inside model context.
 

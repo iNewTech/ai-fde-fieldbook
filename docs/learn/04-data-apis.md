@@ -4,7 +4,7 @@ Week 3 | Prerequisite: 03 | Output: replay-safe, read-only ERP integration
 
 ## The enterprise problem
 
-Northstar's IBM i system holds order truth, but the AI service runs outside it. Orders are updated through established RPGLE workflows. You need to expose the minimum useful information while preserving transactional meaning, access controls and system capacity.
+Northstar's ERP holds order truth, but the AI service runs outside it. Orders are updated through an established transactional workflow. You need to expose the minimum useful information while preserving transactional meaning, access controls and system capacity.
 
 ## First principles
 
@@ -14,7 +14,7 @@ Your SQL experience transfers directly, but language models create new entry poi
 
 Event delivery and business effects are different. A source can deliver the same event multiple times. Idempotency means repeated application with the same business identity has the same intended effect. Persist deduplication with the effect or durable outcome in an atomic boundary. An in-memory seen-ID list loses its guarantee after restart and cannot coordinate workers.
 
-Out-of-order updates need a source version rule. A late "packed" event must not overwrite a newer "shipped" event. For incremental ingestion, a timestamp-only cursor may miss rows sharing a timestamp or fail across clock changes. Prefer the source's supported change mechanism, or use a stable compound cursor and reconciliation process. Assess journaling or CDC options against the customer's actual IBM i setup rather than assuming access.
+Out-of-order updates need a source version rule. A late "packed" event must not overwrite a newer "shipped" event. For incremental ingestion, a timestamp-only cursor may miss rows sharing a timestamp or fail across clock changes. Prefer the source's supported change mechanism, or use a stable compound cursor and reconciliation process. Assess change-data-capture options against the customer's actual system rather than assuming access.
 
 ## Trace an example
 
@@ -41,7 +41,7 @@ Define a read-only `OrderGateway` interface and an event envelope containing sou
 ## Video and reading
 
 - Video lecture: [FSDL Data Management](https://fullstackdeeplearning.com/course/2022/lecture-4-data-management/). Focus on data ownership, versioning and pipeline boundaries.
-- Primary reading: [PostgreSQL transaction isolation](https://www.postgresql.org/docs/current/transaction-iso.html) and [IBM i documentation](https://www.ibm.com/docs/en/i). Consult the version matching the customer's system.
+- Primary reading: [PostgreSQL transaction isolation](https://www.postgresql.org/docs/current/transaction-iso.html). For a real deployment, add the source system's official integration and transaction documentation.
 
 ## Summary
 
