@@ -30,13 +30,7 @@ Prepare a small synthetic labeled dataset with provenance and a leakage-resistan
 4. Compare a completed adaptation experiment with a baseline on held-out cases.
 5. Defend quality, cost and maintenance trade-offs, including quantization.
 
-## Topic Q&A
-
-**Q: When does RAG usually beat fine-tuning?** A: When the failure is changing or private facts. **Q: What does LoRA reduce?** A: The number of trainable parameters by learning low-rank updates.
-
-## Mini-project
-
-Prepare a leakage-resistant synthetic classification dataset. Compare prompt-only, retrieval-assisted and adapter approaches, or analyze a reproducible training run and state the missing evidence.
+<TopicSupport module="13-finetuning" />
 
 ## Video and reading
 

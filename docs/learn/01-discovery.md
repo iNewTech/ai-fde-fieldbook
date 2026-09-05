@@ -36,13 +36,7 @@ Create `problem`, `users`, `workflow`, `baseline`, `constraints`, `success`, `no
 
 Pass requires a specific charter, defensible arithmetic and questions tied to decisions. Vague stakeholder lists or invented measurements need revision.
 
-## Topic Q&A
-
-**Q: Why interview the person doing the work?** A: They reveal the actual steps, workarounds and bottlenecks hidden by executive summaries. **Q: What makes a pilot measurable?** A: A baseline, bounded workflow, target outcome and stop condition.
-
-## Mini-project
-
-Interview yourself as three stakeholders for a fictional order-delay workflow. Produce a one-page problem charter, baseline calculation, workflow map and five risks. Do not choose a model until you can name the bottleneck.
+<TopicSupport module="01-discovery" />
 
 ## Video and reading
 

@@ -32,13 +32,7 @@ Write a six-row vertical scorecard for the domains above. For each, identify use
 4. Defend a build, buy or configure decision with lifecycle costs.
 5. Write product feedback grounded in repeatable customer evidence.
 
-## Topic Q&A
-
-**Q: Should one vertical use one universal error trade-off?** A: No; consequences and review capacity differ. **Q: What should be reused?** A: Stable, measured interfaces and workflow behavior, not customer-specific permissions.
-
-## Mini-project
-
-Score six fictional domains on user, baseline, data, error cost and outcome. Write a build/buy/configure decision and a product-feedback memo backed by repeated evidence.
+<TopicSupport module="22-verticals" />
 
 ## Video and reading
 

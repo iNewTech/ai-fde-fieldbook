@@ -38,13 +38,7 @@ Create 30 labeled queries across exact IDs, paraphrases, ambiguous terms and mix
 4. Explain ANN recall, metadata filtering and update trade-offs.
 5. Defend the store choice without relying on a feature-count contest.
 
-## Topic Q&A
-
-**Q: What is lexical search good at?** A: Exact codes, names and rare terms. **Q: Can a reranker find missing evidence?** A: No; it can only reorder the candidates retrieved earlier.
-
-## Mini-project
-
-Create 30 labeled queries covering product codes, paraphrases and mixed language. Compare lexical, dense and hybrid retrieval with recall@k, precision@k and MRR.
+<TopicSupport module="08-search" />
 
 ## Video and reading
 

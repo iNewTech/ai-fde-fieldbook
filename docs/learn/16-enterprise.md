@@ -32,13 +32,7 @@ Draw identity and data flows from browser to service, retrieval store, model pro
 4. Detect schema drift and reconcile missed source events.
 5. Defend public, private and on-prem connectivity boundaries.
 
-## Topic Q&A
-
-**Q: Does SSO grant ERP access?** A: No; application and downstream authorization still apply. **Q: What is lineage?** A: The chain from source record through transformations, index and answer.
-
-## Mini-project
-
-Draw the identity and data flow for a two-tenant service. Implement a role-revocation, stale-cache, schema-drift and deletion test using synthetic records.
+<TopicSupport module="16-enterprise" />
 
 ## Video and reading
 

@@ -32,13 +32,7 @@ Record your own short harmless equipment or desk-assembly demonstration. Prepare
 4. Compare retrieval variants and quantify missed short events.
 5. Distinguish supported observation from generated inference.
 
-## Topic Q&A
-
-**Q: What can transcript-only retrieval miss?** A: Silent visual actions, objects and timing. **Q: Is a generated caption original evidence?** A: No; it is an interpretation that needs verification against the source clip.
-
-## Mini-project
-
-Record a short harmless demonstration and write 15 questions. Compare transcript-only and multimodal retrieval, inspecting every returned timestamp for support.
+<TopicSupport module="20-video" />
 
 ## Video and reading
 

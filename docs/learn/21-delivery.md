@@ -32,13 +32,7 @@ Write a pilot plan with a staged rollout and rollback trigger. Role-play a spons
 4. Demonstrate useful degraded behavior and incident communication.
 5. Convert the incident into specific, testable follow-up work.
 
-## Topic Q&A
-
-**Q: What should an incident update contain?** A: Known impact, current mitigation, owner and next update time. **Q: How should scope change be negotiated?** A: Show the concrete effect on scope, risk, tests or date.
-
-## Mini-project
-
-Write a pilot plan, role-play one scope change and run a synthetic outage drill. Produce factual updates and a postmortem with testable corrective actions.
+<TopicSupport module="21-delivery" />
 
 ## Video and reading
 

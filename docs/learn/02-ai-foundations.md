@@ -36,13 +36,7 @@ Draw tokens -> embeddings -> attention blocks -> output probabilities -> generat
 4. Decide which invoice steps should remain deterministic.
 5. Defend model selection using task evidence instead of brand popularity.
 
-## Topic Q&A
-
-**Q: Does fluent output prove truth?** A: No, it proves only that the model generated a plausible continuation. **Q: When should code or SQL handle the task?** A: When the rule is exact, auditable and deterministic, such as invoice arithmetic.
-
-## Mini-project
-
-Create twelve synthetic invoice cases. Define one deterministic baseline and one model-assisted design, then write a comparison of accuracy, false alarms, latency, cost and data risk.
+<TopicSupport module="02-ai-foundations" />
 
 ## Video and reading
 

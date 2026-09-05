@@ -32,13 +32,7 @@ Rebuild your P3 architecture for one fictional regulated customer. Supply a data
 4. Demonstrate implemented controls and a deletion/revocation drill.
 5. Present residual risks and identify the accountable acceptance owner.
 
-## Topic Q&A
-
-**Q: Does a vendor certification prove your deployment is compliant?** A: No; applicability, data flow, controls and accountable review still matter. **Q: What belongs in a risk register?** A: Failure, impact, control, owner, evidence and residual risk.
-
-## Mini-project
-
-Choose a fictional bank or administrative hospital case. Convert three requirements into owned controls, draw all data destinations and run a deletion or access-revocation drill.
+<TopicSupport module="18-regulated" />
 
 ## Video and reading
 

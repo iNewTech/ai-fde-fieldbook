@@ -38,13 +38,7 @@ Define a read-only order tool and expose the same bounded capability through a l
 4. Demonstrate authorization and timeout tests outside the model.
 5. Handle an unknown write outcome without blindly replaying it.
 
-## Topic Q&A
-
-**Q: Who executes a tool call?** A: The application, after validating arguments and authorization. **Q: Does MCP provide security automatically?** A: No; server provenance, credentials and policy still need review.
-
-## Mini-project
-
-Expose a read-only synthetic order lookup through a local MCP server. Test malformed input, forbidden IDs, oversized output, malicious tool results and timeout handling.
+<TopicSupport module="11-tools-mcp" />
 
 ## Video and reading
 

@@ -36,13 +36,7 @@ Implement the skeleton in `projects/01-python-bridge/`. Preserve input order, ha
 4. Explain cancellation propagation and resource cleanup.
 5. Defend a money and identifier representation for ERP data.
 
-## Topic Q&A
-
-**Q: Do type hints validate request JSON?** A: No, runtime validation at the boundary is still required. **Q: Does `async def` make blocking I/O safe?** A: No, a blocking driver can stall the event loop.
-
-## Mini-project
-
-Build a Python adapter around a fake IBM i order API. Add typed input validation, bounded concurrency, timeouts and tests for duplicates, cancellation and upstream failure.
+<TopicSupport module="03-python" />
 
 ## Video and reading
 

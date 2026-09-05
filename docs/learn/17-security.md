@@ -32,13 +32,7 @@ Create 20 local attack cases against your own synthetic application: direct/indi
 4. Evaluate false refusals and unequal error rates by relevant slice.
 5. Retest each reported issue and state residual limitations.
 
-## Topic Q&A
-
-**Q: Are delimiters a security boundary?** A: No; they help interpretation but application permissions must contain effects. **Q: Does a refusal prove no sensitive data was exposed?** A: No; inspect the full data path and telemetry.
-
-## Mini-project
-
-Create 20 synthetic direct and indirect injection cases. Record precondition, effect, mitigation and retest evidence, including PII exposure and false-refusal slices.
+<TopicSupport module="17-security" />
 
 ## Video and reading
 

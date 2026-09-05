@@ -32,13 +32,7 @@ Prepare a five-minute executive demo and a fifteen-minute architecture defense. 
 4. Demonstrate a reproducible handover and recovery drill.
 5. Pass mixed conceptual and practical checks without relying on memorized answers.
 
-## Topic Q&A
-
-**Q: Is usage proof of value?** A: No; value requires workflow outcomes compared with a baseline and operating cost. **Q: What makes a good handover?** A: Another operator can deploy, monitor, recover and understand limitations.
-
-## Mini-project
-
-Prepare a five-minute outcome demo and an operator runbook. Have a reviewer reproduce the workflow and recover from a simulated failure, then record remaining gaps.
+<TopicSupport module="24-outcomes" />
 
 ## Video and reading
 

@@ -36,13 +36,7 @@ Build a four-to-six-step flow for the P2 triage task. Use synthetic data, label 
 4. Reproduce the prototype on a second run without hidden manual fixes.
 5. Explain what must change before this prototype can support a real pilot.
 
-## Topic Q&A
-
-**Q: What is a prototype proving?** A: A bounded hypothesis under stated test conditions. **Q: Does a visual flow remove production concerns?** A: No; credentials, data flow, retries and observability still exist.
-
-## Mini-project
-
-Build a six-step visual or diagrammed triage flow. Run ten cases, record traces and write the hypothesis, observation, counterexample and decision before proposing a full application.
+<TopicSupport module="06-visual-prototyping" />
 
 ## Video and reading
 

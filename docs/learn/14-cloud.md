@@ -32,13 +32,7 @@ Containerize your service, add CI, deploy it to one sandbox and run a local Kube
 4. Demonstrate deployment and rollback with compatible data/index versions.
 5. Defend one cloud choice and compare the other two accurately.
 
-## Topic Q&A
-
-**Q: What does liveness prove?** A: That a process may need restarting, not that it serves correct answers. **Q: Why version the index with the application?** A: A rollback can fail if the old code cannot read the new index.
-
-## Mini-project
-
-Containerize a small service, add CI and run a local deployment exercise. Demonstrate readiness, dependency failure, compatible rollback and clean recreation from the repository.
+<TopicSupport module="14-cloud" />
 
 ## Video and reading
 
