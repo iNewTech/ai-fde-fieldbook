@@ -32,7 +32,12 @@ Content checks cover module routes, defense questions, video links and bilingual
 | Publish directory | `docs/.vitepress/dist` |
 | Node | 22 |
 
-No model API keys are needed. Future pushes update the connected site. Suggested site name: **fde-fieldbook**, subject to availability. A successful GitHub push alone does not create a live Netlify site; confirm the deployment before sharing its assigned address.
+No model API keys are needed. The Netlify project is linked to GitHub, so every
+push to `main` fires the GitHub-to-Netlify webhook, runs `npm run build`, and
+publishes the new output automatically. Confirm the commit SHA under Netlify's
+**Deploys** tab and wait for **Published** before sharing the change. Pull
+request deploy previews can be enabled under **Deploy previews**. Suggested
+site name: **fde-fieldbook**.
 
 ## Content workflow
 
@@ -42,6 +47,9 @@ Commit original lessons, synthetic fixtures and sanitized project evidence. Keep
 
 Use a reviewed branch for changes; the GitHub workflow checks pushes and pull requests. The Vite override pins a patched compatible build-tool version; recheck compatibility when upgrading VitePress.
 
-Weekly unlocking is omitted for simplicity. Hiding navigation in a public repository does not protect lesson access. The open library does not claim to enforce secure release gating.
+The lesson gate stores a learner's 100% module result in browser storage and
+offers a retry after failure. It is a learning aid, not access control: a public
+repository cannot securely hide future lessons. Mentor review of the five
+required checks and the mini-project remains the authoritative advancement gate.
 
 Reference: [VitePress deployment guide](https://vitepress.dev/guide/deploy).
