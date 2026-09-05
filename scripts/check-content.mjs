@@ -11,7 +11,7 @@ export function validateQuestion(question) {
 }
 
 export function validateLesson(content) {
-  const required = ['## First principles', '## Independent work', '## Required checks', '## Video and reading', '### English', '### Hinglish'];
+  const required = ['## First principles', '## Independent work', '## Required checks', '## Topic Q&A', '## Mini-project', '## Video and reading', '### English', '### Hinglish'];
   const errors = required.filter(heading => !content.includes(heading)).map(heading => `Missing ${heading}`);
   const checks = content.split('## Required checks')[1]?.split('\n## ')[0] ?? '';
   if ([...checks.matchAll(/^\d+\. /gm)].length !== 5) errors.push('Expected five defense checks');

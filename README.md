@@ -4,8 +4,9 @@ An independent AI/FDE study library by iNewTech, tailored to an experienced
 Node.js and IBM i engineer transitioning into AI deployment work.
 
 **20 study weeks + 2 buffer weeks, 15 hours/week.** Includes 24 lessons,
-8 cumulative projects, 24 interactive practice questions, 120 defense questions,
-video references, English/Hinglish summaries and system design checkpoints.
+answered Q&A after every topic, 24 topic mini-projects, 8 cumulative milestone
+projects, 24 interactive practice questions, 120 defense questions, video
+references, English/Hinglish summaries and system design checkpoints.
 
 ## Start
 

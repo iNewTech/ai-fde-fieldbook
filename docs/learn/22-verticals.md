@@ -32,6 +32,14 @@ Write a six-row vertical scorecard for the domains above. For each, identify use
 4. Defend a build, buy or configure decision with lifecycle costs.
 5. Write product feedback grounded in repeatable customer evidence.
 
+## Topic Q&A
+
+**Q: Should one vertical use one universal error trade-off?** A: No; consequences and review capacity differ. **Q: What should be reused?** A: Stable, measured interfaces and workflow behavior, not customer-specific permissions.
+
+## Mini-project
+
+Score six fictional domains on user, baseline, data, error cost and outcome. Write a build/buy/configure decision and a product-feedback memo backed by repeated evidence.
+
 ## Video and reading
 
 - Video lecture: [FSDL Course Vision and When to Use ML](https://fullstackdeeplearning.com/course/2022/lecture-1-course-vision-and-when-to-use-ml/).

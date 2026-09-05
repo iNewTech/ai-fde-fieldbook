@@ -32,6 +32,14 @@ Extend your existing authorized RAG service with a voice interface. Record ten c
 4. Test corrected identifiers and Hindi-English requests.
 5. Report measured latency, task outcomes and fallback behavior.
 
+## Topic Q&A
+
+**Q: What must an interruption cancel?** A: Stale inference, queued audio and late tool results for the old turn. **Q: What does "no lag" mean?** A: A measurable latency distribution under a defined workload.
+
+## Mini-project
+
+Run ten synthetic voice sessions with interruption, corrected IDs, mixed language and timeout. Track turn IDs, cancellation, first-audio latency and text fallback behavior.
+
 ## Video and reading
 
 - Video course: [Voice for AI Agents and Applications](https://www.deeplearning.ai/courses/voice-for-ai-agents-and-applications), especially voice evaluation.

@@ -10,6 +10,8 @@ The 300 active-study hours include reading, selected video sections, coding, exp
 
 Every active week allocates approximately **3 hours of explanation/video, 7 hours of implementation or experiments, 2 hours of tests, 2 hours of customer-facing writing, and 1 hour of recall/review**. The delivery work is woven into the labs as well. Video is a reference, not an additional obligation to watch every linked course in full.
 
+Every topic page now has three visible practice layers: answered **Topic Q&A** for immediate concept clarification, an independent **Mini-project** for that topic, and five unanswered **Required checks** for mentor review. After each milestone, the accumulated mini-projects are integrated into a major project; see the [milestone map](/projects/).
+
 ## Your weekly rhythm
 
 | Day | Time | Work |

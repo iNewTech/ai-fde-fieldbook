@@ -32,6 +32,14 @@ Capture baseline latency, throughput, error rate and cost. Test a cache, bounded
 4. Diagnose queueing and retry amplification under load.
 5. Defend an optimization with both quality and performance evidence.
 
+## Topic Q&A
+
+**Q: Why measure p95?** A: It exposes the slow tail users experience. **Q: Is a semantic cache safe by similarity alone?** A: No; tenant, authorization and freshness must also match.
+
+## Mini-project
+
+Benchmark a baseline and one optimization under a stated workload. Report p50/p95, throughput, error rate, token cost, cache eligibility and quality change.
+
 ## Video and reading
 
 - Video lecture: [FSDL LLMOps](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/llmops/), especially model selection and deployment.

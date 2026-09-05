@@ -22,6 +22,14 @@ Provide only an interface or TODO skeleton. Define input, output and acceptance 
 
 List conceptual, practical, failure and design-defense checks. Require all to pass.
 
+## Topic Q&A
+
+Answer two short conceptual questions so the learner can clarify the mechanism before attempting the gate.
+
+## Mini-project
+
+Give one small, topic-specific implementation or system-design project. Supply only interfaces, TODOs and acceptance behavior.
+
 ## Video and reading
 
 Link a relevant original video or video course and current primary documentation. State the focus and access restrictions.

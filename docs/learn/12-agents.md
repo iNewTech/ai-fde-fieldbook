@@ -38,6 +38,14 @@ Compare a fixed pipeline, a single tool-using agent and two bounded specialists 
 4. Explain why multiple agents can share a single underlying error.
 5. Present a fair baseline comparison and justify the chosen architecture.
 
+## Topic Q&A
+
+**Q: What makes an agent reliable?** A: Explicit state, bounded actions, stop conditions, permissions and recovery. **Q: Are multiple agents independent evidence?** A: No; they can share models, context and source errors.
+
+## Mini-project
+
+Implement one bounded order-policy workflow with a state machine. Compare fixed, single-agent and specialist versions on the same cases; report calls, cost, latency and failures.
+
 ## Video and reading
 
 - Video course: [AI Agents in LangGraph](https://learn.deeplearning.ai/courses/ai-agents-in-langgraph). Focus on persistence, streaming and human review.

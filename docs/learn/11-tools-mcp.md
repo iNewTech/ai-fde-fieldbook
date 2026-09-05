@@ -38,6 +38,14 @@ Define a read-only order tool and expose the same bounded capability through a l
 4. Demonstrate authorization and timeout tests outside the model.
 5. Handle an unknown write outcome without blindly replaying it.
 
+## Topic Q&A
+
+**Q: Who executes a tool call?** A: The application, after validating arguments and authorization. **Q: Does MCP provide security automatically?** A: No; server provenance, credentials and policy still need review.
+
+## Mini-project
+
+Expose a read-only synthetic order lookup through a local MCP server. Test malformed input, forbidden IDs, oversized output, malicious tool results and timeout handling.
+
 ## Video and reading
 
 - Video course: [MCP: Build Rich-Context AI Apps with Anthropic](https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic). Focus on the protocol and client/server responsibilities; sign-in may be required.

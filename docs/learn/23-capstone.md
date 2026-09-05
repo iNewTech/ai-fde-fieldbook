@@ -32,6 +32,14 @@ Produce the P8 charter, architecture, threat model, interface contracts, evaluat
 4. Demonstrate recovery with consistent application and data versions.
 5. Defend the design under an unfamiliar changed constraint.
 
+## Topic Q&A
+
+**Q: What makes a capstone release-ready?** A: Reproducible evidence across function, security, performance, recovery and user workflow. **Q: What is a design defense?** A: Explaining choices and behavior when a constraint changes.
+
+## Mini-project
+
+Run a complete request trace through identity, retrieval, model and review using one unfamiliar failure. Produce the changed-constraint architecture decision before modifying the system.
+
 ## Video and reading
 
 - Video walkthrough: [FSDL Project Walkthrough: askFSDL](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/askfsdl-walkthrough/). Analyze deployment boundaries; do not copy the exercise implementation.

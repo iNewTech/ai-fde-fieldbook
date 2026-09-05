@@ -38,6 +38,14 @@ Build at least 40 held-out synthetic cases across answerable, unanswerable, cont
 4. Trace a failed answer to the responsible stage and version.
 5. Define a release gate that cannot average away critical failures.
 
+## Topic Q&A
+
+**Q: Why hold out test cases?** A: Reusing every case for tuning overestimates generalization. **Q: Does an LLM judge replace human review?** A: No; its rubric and disagreements require calibration.
+
+## Mini-project
+
+Create 40 synthetic evaluation cases across five failure slices. Compare a baseline and candidate, calibrate one judge against human labels and trace three failures to their pipeline stage.
+
 ## Video and reading
 
 - Video course: [Evaluating and Debugging Generative AI](https://www.deeplearning.ai/courses/evaluating-debugging-generative-ai). Focus on experiment tracking and evaluation discipline.

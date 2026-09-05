@@ -4,6 +4,20 @@ These are cumulative assignments, not completed solutions. Use synthetic Northst
 
 All thresholds below are **training acceptance targets**, not claimed industry standards or observed results. Freeze the protocol before optimizing. Every listed check must pass; security and business-effect defects cannot be averaged away.
 
+## Milestone map
+
+Each milestone ends with a major project review. The mini-projects inside every lesson prepare one small capability for that milestone; the major project integrates and defends them.
+
+| Milestone | Major project | Lessons feeding it | Required review |
+| --- | --- | --- | --- |
+| Week 4 | **P2 First AI tool** | 01-06 | Working triage tool, visual prototype, baseline, prompt evaluation and pilot one-pager |
+| Week 10 | **P3 Enterprise RAG + P4 Controlled agent workflow** | 07-12 | Production RAG, evaluation report, tool boundary, agent comparison and architecture defense |
+| Week 15 | **P5 Regulated rebuild and security audit** | 13-18 | Fine-tuning decision, deployment, performance, enterprise integration, threat model and governance evidence |
+| Week 17 | **P6 Voice service desk + P7 Video field manual** | 19-20 | Voice interruption/latency evidence and multimodal timestamped retrieval evidence |
+| Week 20 | **P8 Order-exception deployment** | 21-24 | End-to-end release, system-design defense, incident/recovery drill, outcome demo and handover |
+
+The eight major project briefs appear below. A milestone is not complete when the code exists; its project acceptance checks and module gates must all pass.
+
 ## P1. Python bridge | Week 2
 
 Build a typed async client for an ERP-style order API. Preserve result ordering, bound concurrency and return explicit per-order failures. Use a fake client, then add a FastAPI/Pydantic boundary as the next integration exercise.

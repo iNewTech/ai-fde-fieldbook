@@ -36,6 +36,14 @@ Define a read-only `OrderGateway` interface and an event envelope containing sou
 4. Diagnose a join that doubles totals and inspect its plan.
 5. Defend freshness, encoding, decimal and time-zone contracts.
 
+## Topic Q&A
+
+**Q: What does idempotency protect?** A: It prevents repeated delivery from creating repeated business effects. **Q: Why is a JSON schema insufficient?** A: It does not define identity, authorization, freshness or side-effect behavior.
+
+## Mini-project
+
+Design a read-only order API and replay-safe event consumer using synthetic data. Add tests for duplicate events, stale versions, source outage and tenant authorization.
+
 ## Video and reading
 
 - Video lecture: [FSDL Data Management](https://fullstackdeeplearning.com/course/2022/lecture-4-data-management/). Focus on data ownership, versioning and pipeline boundaries.

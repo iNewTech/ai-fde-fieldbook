@@ -38,6 +38,14 @@ Create at least twelve original synthetic documents with conflicting versions, a
 4. Demonstrate idempotent re-ingestion and deletion propagation.
 5. Diagnose missing table context and incompatible embedding spaces.
 
+## Topic Q&A
+
+**Q: Why preserve headings and tables?** A: Their conditions often determine the meaning of a claim. **Q: What happens when an embedding model changes?** A: The vector space may become incompatible, so versioning and re-indexing are required.
+
+## Mini-project
+
+Ingest twelve synthetic policies containing a table, exception, version conflict and deletion. Implement chunk metadata with source spans, hashes, access labels and re-ingestion tests.
+
 ## Video and reading
 
 - Video course: [Vector Databases: from Embeddings to Applications](https://www.deeplearning.ai/courses/vector-databases-embeddings-applications). Focus on embedding representation and similarity.

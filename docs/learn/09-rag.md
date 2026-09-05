@@ -38,6 +38,14 @@ Implement P3's answer interface from its skeleton. Return answer status, support
 4. Defend refusal and clarification behavior on missing or conflicting evidence.
 5. Measure whether rewriting and reranking improve the held-out task.
 
+## Topic Q&A
+
+**Q: Where should tenant authorization happen?** A: Before protected data enters retrieval, context, traces or caches. **Q: Can reranking recover a missing document?** A: No; it only improves ordering of retrieved candidates.
+
+## Mini-project
+
+Build a two-tenant cited policy assistant over synthetic documents. Add tests for conflicting versions, missing evidence, stale caches and cross-tenant requests. Leave tool writes disabled.
+
 ## Video and reading
 
 - Video lecture: [FSDL Augmented Language Models](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/augmented-language-models/). Focus on external knowledge and its boundaries.

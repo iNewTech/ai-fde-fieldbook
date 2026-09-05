@@ -38,6 +38,14 @@ Write a versioned task contract and at least 20 synthetic development tickets, i
 4. Show versioned evaluation evidence for a prompt change.
 5. Handle injected instructions, refusal and incomplete output predictably.
 
+## Topic Q&A
+
+**Q: Does valid JSON mean a correct answer?** A: No; shape, factual support and authorization are separate checks. **Q: What does few-shot prompting change?** A: It changes the request context, not model weights.
+
+## Mini-project
+
+Create a ticket-triage contract with an abstain state and 20 synthetic examples. Compare a rules baseline with two versioned prompts and document every regression.
+
 ## Video and reading
 
 - Video lecture: [FSDL Prompt Engineering](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/prompt-engineering/). Treat dated model-specific advice as historical.
