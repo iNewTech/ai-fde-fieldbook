@@ -7,9 +7,8 @@ const qa = {
 };
 const defaultQA = (title, goal) => [['What is the main FDE decision here?', 'Choose the smallest design that proves the workflow outcome and its risks.', goal], ['What must be proven before production?', 'Correct behavior, failure handling, security boundaries, measurable impact and a repeatable operating process.', 'A successful demo alone is not deployment evidence.']];
 
-export const topicSupport = Object.fromEntries(Object.entries(names).map(([module, [title, goal]]) => ({
-  [module]: {
+export const topicSupport = Object.fromEntries(Object.entries(names).map(([module, [title, goal]]) => [module, {
     qa: (qa[module] || defaultQA(title, goal)).map(([question, answer, example]) => ({ question, answer, example })),
     project: { title, goal, prerequisites: 'Start with the lesson and the matching repository skeleton. You need only your existing Node.js/API skills at first.', stack: 'Node.js is fine for the first version; use Python where the module benefits from its AI/data libraries.', steps: ['Write the user, workflow, input, output and success condition.', 'Implement one small vertical slice from the provided interface.', 'Add a happy-path test and at least two failure/edge-case tests.', 'Record one system-design trade-off and what evidence would change it.'], hints: 'Break the task into data contract, pure logic, integration boundary and test. Ask the mentor for a hint only after showing your attempt.', deliverables: 'A short README, architecture sketch, skeleton implementation, tests, sample output and a list of known limitations.' }
   }
-})));
+]));
