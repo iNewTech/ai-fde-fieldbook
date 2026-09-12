@@ -44,6 +44,7 @@ docs/plan/        Schedule, system design and coverage
 docs/projects/    Eight enterprise project briefs
 docs/practice/    Interactive question bank
 docs/references/  Original video, paper and documentation links
+docs/resources/   Public roadmap, mentor skill and study workflow
 docs/guide/       Diagnostic, learning contract, Q&A and publishing
 docs/.vitepress/  Navigation, search, practice data and theme
 projects/         Learner interfaces and selected Python contract tests

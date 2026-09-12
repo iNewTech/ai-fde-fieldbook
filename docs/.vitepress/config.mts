@@ -13,6 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Study plan', link: '/plan/' },
       { text: 'Projects', link: '/projects/' },
+      { text: 'Resources', link: '/resources/' },
       { text: 'Question bank', link: '/practice/' },
       { text: 'References', link: '/references/' }
     ],
@@ -24,6 +25,7 @@ export default defineConfig({
         { text: 'Learning contract', link: '/guide/learning-contract' },
         { text: 'How to study', link: '/guide/how-to-study' },
         { text: 'Mentor skill', link: '/guide/mentor-skill' },
+        { text: 'Resource hub', link: '/resources/' },
         { text: 'Readiness diagnostic', link: '/guide/diagnostic' },
         { text: 'Questions and answers', link: '/guide/q-and-a' }
       ]},

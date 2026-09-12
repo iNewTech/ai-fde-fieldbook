@@ -28,6 +28,12 @@
 .vp-doc table { font-size: 14px; }
 .vp-doc th { background: var(--vp-c-bg-alt); }
 .vp-doc a { text-underline-offset: 3px; }
+.resource-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 26px 0 34px; }
+.resource-card { border: 1px solid var(--vp-c-divider); padding: 20px; background: var(--vp-c-bg-alt); }
+.resource-card h2 { font-size: 18px; margin: 7px 0 10px; }
+.resource-card p { font-size: 14px; line-height: 1.65; }
+.resource-label { color: var(--vp-c-brand-1); font-size: 11px; font-weight: 750; text-transform: uppercase; }
+.resource-action { display: inline-block; margin-top: 8px; font-size: 14px; font-weight: 650; }
 .eyebrow { color: var(--vp-c-brand-1); font-size: 12px; font-weight: 700; text-transform: uppercase; margin-bottom: 16px; }
 .lead { font-size: 19px; line-height: 1.65; color: var(--vp-c-text-2); }
 .study-facts { display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 18px; padding: 25px 0; margin: 24px 0 12px; border-block: 1px solid var(--vp-c-divider); }
@@ -86,4 +92,5 @@ button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible
   .study-facts div { grid-template-columns: 22px 108px 1fr; }
   .study-facts span { grid-column: 3; }
   .phase-row { grid-template-columns: 78px 1fr 20px; gap: 10px; }
+  .resource-grid { grid-template-columns: 1fr; }
 }

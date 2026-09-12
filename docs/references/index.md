@@ -1,6 +1,6 @@
 # Video and reading library
 
-Every numbered lesson contains its own relevant video and primary reading. Links point to original teaching; no videos, transcripts, paid exercises or the supplied PDF are republished here. Some video-course hosts require an account or subscription. Older lectures explain durable concepts; verify current model names, APIs, prices and deployment settings in official documentation.
+Every numbered lesson contains its own relevant video and primary reading. This page is the detailed reference shelf; the [resource hub](/resources/) also includes the supplied roadmap PDF and reusable mentor skill. Links point to original teaching; videos, transcripts and paid exercises are not republished here. Some video-course hosts require an account or subscription. Older lectures explain durable concepts; verify current model names, APIs, prices and deployment settings in official documentation.
 
 ## Core video routes
 
