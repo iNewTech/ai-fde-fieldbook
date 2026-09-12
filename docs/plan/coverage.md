@@ -1,6 +1,6 @@
 # Syllabus coverage map
 
-Reference: the user-supplied **AI Forward Deployed Engineering, IIT Delhi CEP** brochure, especially printed pages 6 and 8-10. It describes 24 weeks, 145 learning hours and five project milestones. This independent plan reorganizes its skill areas into 24 learning modules over 20 active weeks, adds voice/video work and reserves two retry weeks. It does not reproduce or verify the brochure's marketing, salary or hiring claims.
+References: the user-supplied **AI Forward Deployed Engineering, IIT Delhi CEP** brochure and the user-supplied **FDE Zero-to-Expert Roadmap**. This independent plan reorganizes their skill areas into 24 learning modules over 20 active weeks, adds voice/video work and reserves two retry weeks. It uses the roadmap's one-primary-resource, build-debug-apply loop and cumulative portfolio idea without reproducing or verifying marketing, salary or hiring claims.
 
 **Build** means independent implementation and tests. **Experiment** means a bounded practical comparison. **Review** means a defended design or applicability assessment. These depths are explicit: covering a vendor is not the same as operating it at production scale.
 

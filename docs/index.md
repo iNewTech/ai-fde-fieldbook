@@ -39,7 +39,7 @@ Start with [How to study](/guide/how-to-study), then use the [readiness diagnost
 
 A support team receives thousands of requests, its policies contradict each other, and its CRM is full of duplicates. A customer asks for an AI agent. Your job starts with deciding which problem is worth solving.
 
-Across the fieldbook, you will scope that workflow, build a grounded assistant, add controlled tools, harden the deployment, and evaluate voice and video interfaces. Each project includes a customer-facing deliverable and an engineering artifact. Cases use fictional organizations and synthetic data.
+Across the fieldbook, you will grow one enterprise workflow platform: scope the problem, build a grounded assistant, add controlled tools, harden the deployment, and evaluate voice and video interfaces. Each topic lab adds one capability; each milestone integrates it into the same portfolio system with a customer-facing deliverable and an engineering artifact. Cases use fictional organizations and synthetic data.
 
 ## A lesson is a decision you can defend
 

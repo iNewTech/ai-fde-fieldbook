@@ -15,6 +15,29 @@ Every active week allocates approximately **3 hours of explanation/video, 7 hour
 
 Every topic page now has three visible practice layers: answered **Topic Q&A** for immediate concept clarification, an independent **Mini-project** for that topic, and five unanswered **Required checks** for mentor review. After each milestone, the accumulated mini-projects are integrated into a major project; see the [milestone map](/projects/).
 
+## The concept spine
+
+The zero-to-expert roadmap adds a simple rule for every topic: learn one
+primary resource, build a tiny example, add the capability to the evolving
+portfolio system, deliberately break it, debug it, then take the mastery gate.
+Do not study every framework at once. Learn the underlying sequence first:
+
+| Concept | Fieldbook modules | Portfolio capability |
+| --- | --- | --- |
+| LLMs and prompting | 02, 05 | Explain model limits and produce controlled drafts |
+| LLM application basics | 04-06 | Connect a model to data, validation and a user workflow |
+| Embeddings and vector databases | 07-08 | Index authorized enterprise documents and retrieve candidates |
+| RAG | 09-10 | Return grounded answers with citations and measured quality |
+| Tool calling | 11 | Request a bounded read-only business lookup |
+| State and orchestration | 12 | Route work, retry safely and pause for human approval |
+| Agents and MCP | 11-12 | Compare agents with a simpler workflow and expose a controlled capability |
+| Evals, observability and safety | 10, 17-18 | Detect regressions, attacks, leakage and operational risk |
+| Production FDE delivery | 14-16, 19-24 | Deploy, operate, communicate outcomes and improve the system |
+
+The portfolio is one evolving enterprise workflow platform, not twenty
+unrelated demos. Topic labs isolate one skill; milestone projects integrate
+those skills into the same system and add evidence, tests and design defenses.
+
 ## Your weekly rhythm
 
 | Day | Time | Work |
@@ -67,6 +90,12 @@ packaging. Customer systems are represented with synthetic CRM, ERP, ticketing,
 document and analytics fixtures, never live employer data.
 
 Learn one cloud deployment deeply. AWS Bedrock, Azure OpenAI and Google Vertex AI all receive a comparison and architecture exercise. Kubernetes receives a local deployment/recovery exercise. Learn LangGraph through a bounded workflow, then contrast CrewAI with a small equivalent experiment. Pinecone, Qdrant and Weaviate receive selection/contract checks; operating every vendor at production scale is beyond this schedule. No competency is silently removed: depth is explicit in the [coverage map](/plan/coverage).
+
+Framework rule: do not spend the early weeks collecting LangChain, LangGraph,
+CrewAI, AutoGen, LlamaIndex, Semantic Kernel and other framework APIs. First
+understand the model, retrieval, tools, state, agents, orchestration, MCP,
+evaluation and production concepts. A later framework should then be an API
+translation exercise, not a new mental model.
 
 ## Readiness is evidence
 

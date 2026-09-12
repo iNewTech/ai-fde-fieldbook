@@ -2,6 +2,24 @@
 
 These are cumulative assignments, not completed solutions. Use synthetic Northstar Supply data. Your implementation lives under `projects/`; the repository provides interfaces and selected tests. Each project requires source code, evidence, a short architecture decision and a customer-facing artifact.
 
+## One evolving portfolio system
+
+Build one serious enterprise workflow platform throughout the roadmap. Each
+topic mini-project is a small isolated lab; after a milestone, integrate the
+useful capability into this platform. The platform can connect common systems
+such as CRM, ERP, ticketing, inventory, policy documents and analytics.
+
+The capability path is:
+
+`source and document ingestion -> dependency/context analysis -> embeddings and retrieval -> cited assistant -> bounded tools -> stateful workflow -> agent comparison -> MCP -> tests and evaluation -> observability and guardrails -> deployment and outcome review`
+
+For example, the embedding lab indexes synthetic policies and operational
+documents; the RAG lab answers a question with source evidence; the tool lab
+adds a read-only lookup; the orchestration lab routes analysis and pauses for
+human review; later milestones harden the same workflow for security,
+performance, voice/video and customer rollout. This preserves the PDF's
+incremental path while keeping examples relatable across industries.
+
 All thresholds below are **training acceptance targets**, not claimed industry standards or observed results. Freeze the protocol before optimizing. Every listed check must pass; security and business-effect defects cannot be averaged away.
 
 ## Milestone map
